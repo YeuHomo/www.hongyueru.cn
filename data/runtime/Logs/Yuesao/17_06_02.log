@@ -1,0 +1,325 @@
+[ 2017-06-02T11:21:49+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=19&status=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_yuesao` SET `is_recommend`='0' WHERE ( ys_id=19 ) [ RunTime:0.0020s ]
+
+[ 2017-06-02T11:39:19+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=AdminPost&a=add&term=
+ERR: 无法加载控制器:AdminPost
+
+[ 2017-06-02T14:15:26+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=2&status=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_yuesao` SET `is_recommend`='0' WHERE ( ys_id=2 ) [ RunTime:0.0020s ]
+
+[ 2017-06-02T14:15:31+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=4&status=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_yuesao` SET `is_recommend`='0' WHERE ( ys_id=4 ) [ RunTime:0.0030s ]
+
+[ 2017-06-02T14:15:35+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=3&status=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0020s ]
+SQL: UPDATE `ys_yuesao` SET `is_recommend`='1' WHERE ( ys_id=3 ) [ RunTime:0.0020s ]
+
+[ 2017-06-02T14:22:44+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=1&status=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: UPDATE `ys_yuesao` SET `is_top`='1' WHERE ( ys_id=1 ) [ RunTime:0.0020s ]
+
+[ 2017-06-02T14:22:48+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=2&status=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_yuesao` SET `is_top`='1' WHERE ( ys_id=2 ) [ RunTime:0.0020s ]
+
+[ 2017-06-02T14:23:15+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=2&status=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_yuesao` SET `is_checked`='1' WHERE ( ys_id=2 ) [ RunTime:0.0020s ]
+
+[ 2017-06-02T14:23:19+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=2&status=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: UPDATE `ys_yuesao` SET `is_checked`='0' WHERE ( ys_id=2 ) [ RunTime:0.0020s ]
+
+[ 2017-06-02T14:23:22+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=19&status=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: UPDATE `ys_yuesao` SET `is_checked`='1' WHERE ( ys_id=19 ) [ RunTime:0.0020s ]
+
+[ 2017-06-02T14:23:29+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=19&status=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: UPDATE `ys_yuesao` SET `is_top`='1' WHERE ( ys_id=19 ) [ RunTime:0.0030s ]
+
+[ 2017-06-02T14:25:17+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=1&status=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_yuesao` SET `is_checked`='1' WHERE ( ys_id=1 ) [ RunTime:0.0020s ]
+
+[ 2017-06-02T14:44:37+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommend&id=4&status=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: UPDATE `ys_yuesao` SET `is_checked`='1' WHERE ( ys_id=4 ) [ RunTime:0.0030s ]
+
+[ 2017-06-02T15:07:17+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=check&check=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_yuesao` SET `is_checked`='1' WHERE `ys_id` IN ('1','2','3','4','19') [ RunTime:0.0040s ]
+
+[ 2017-06-02T15:07:20+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=check&uncheck=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: check D:\yuesao\application\Yuesao\Controller\YuesaoController.class.php 第 283 行.
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: UPDATE `ys_yuesao` SET `is_checked`='0' WHERE `ys_id` IN ('1','2','3','4','19') [ RunTime:0.0050s ]
+
+[ 2017-06-02T15:07:25+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=top&top=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_yuesao` SET `is_top`='1' WHERE `ys_id` IN ('1','2','3','4','19') [ RunTime:0.0030s ]
+
+[ 2017-06-02T15:07:27+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=top&untop=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: top D:\yuesao\application\Yuesao\Controller\YuesaoController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0020s ]
+SQL: UPDATE `ys_yuesao` SET `is_top`='0' WHERE `ys_id` IN ('1','2','3','4','19') [ RunTime:0.0030s ]
+
+[ 2017-06-02T15:07:30+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommended&recommend=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+
+[ 2017-06-02T15:07:32+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommended&recommend=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+
+[ 2017-06-02T15:07:33+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommended&recommend=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+
+[ 2017-06-02T15:07:34+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommended&unrecommend=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: recommend D:\yuesao\application\Yuesao\Controller\YuesaoController.class.php 第 327 行.
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+
+[ 2017-06-02T15:07:34+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommended&unrecommend=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: recommend D:\yuesao\application\Yuesao\Controller\YuesaoController.class.php 第 327 行.
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+
+[ 2017-06-02T15:07:58+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommended&recommend=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_yuesao` SET `is_recommend`='1' WHERE `ys_id` IN ('1','2','3','4','19') [ RunTime:0.0030s ]
+
+[ 2017-06-02T15:08:01+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=Yuesao&a=recommended&unrecommend=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: recommend D:\yuesao\application\Yuesao\Controller\YuesaoController.class.php 第 327 行.
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: UPDATE `ys_yuesao` SET `is_recommend`='0' WHERE `ys_id` IN ('1','2','3','4','19') [ RunTime:0.0030s ]
+

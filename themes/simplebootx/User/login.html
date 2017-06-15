@@ -1,0 +1,176 @@
+
+<tc_include file="Public:head" />
+<div class="log_content2">
+    <div class="container">
+        <div class="col-md-3 pull-left"> <img src="__TMPL__Public/assets2/img/logo2.png" width="279px" height="69px" class="log_content2_img"> </div>
+        <div class="pull-right col-md-9">
+            <ul class="log_content2_nav">
+                <li style="border:none;width:12%;text-align: right;"><a href="contact.html">联系我们</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="matching.html">智能匹配月嫂</a></li>
+                <li><a href="showorder.html">月嫂展示&预约</a></li>
+                <li style="width: 12%;" class="active"><a href="index.html">首页</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="log_bgcolor">
+    <div class="container">
+        <div class="log_in clearfix">
+            <img src="__TMPL__Public/assets2/img/login/1.png" class="pull-left">
+            <div class="pull-right">
+                <!--
+                                <div class="log_in_title clearfix">
+
+                                </div>
+                -->
+                <div class="f">
+                    <div class="f__hd log_in_title clearfix">
+                        <a class="rborder log_in_title_on"><span>账号登录</span></a>
+                        <a class="active log_in_title_on"><span>手机动态密码登录</span></a>
+                    </div>
+
+
+                    <div class="f___bd">
+
+
+                        <!--手机动态密码登录-->
+                        <div class="f__tab">
+                            <form class="form-horizontal js-ajax-form" action="{:U('user/login/dologin')}" method="post">
+                            <div class="col-3">
+                                <input name="username" placeholder="账号" class="phonenumber effect-11"/>
+                                <span class="focus-border">
+									<i></i>
+								</span>
+                            </div>
+                            <div class="col-5">
+                                <input type="password" name="password" placeholder="密码" class="usercode effect-8" style="width:100%;"/>
+                                <span class="focus-border">
+									<i></i>
+								</span>
+                            </div>
+                             <div class="span4">
+                              <input type="text" id="input_verify" name="verify"  placeholder="验证码" style="width:252px;" required>
+                               {:sp_verifycode_img('length=4&font_size=14&width=100&height=34&charset=2345678&use_noise=1&use_curve=0')}
+                                 <span class="focus-border">
+									<i></i>
+								</span>
+                             </div>
+
+
+                            <div class="fc_reg clearfix">
+                                <a class="pull-left" href="{:U('user/login/forgot_password')}">忘记密码？</a>
+                                <a class="pull-right" href="{:leuu('user/register/index')}">新用户注册</a>
+                            </div>
+                            <button type="submit">登录</button>
+                        </form>
+                        </div>
+
+
+
+                        <!--账号登录-->
+                        <div class="f__tab active">
+                            <div class="col-3">
+                                <input name="phonenumber" id="phone" placeholder="手机号码" class="phonenumber effect-8"/>
+                                <span class="focus-border">
+									<i></i>
+								</span>
+                            </div>
+                            <div class="col-4">
+                                <input name="code" id="code" placeholder="动态密码" class="code effect-8"/>
+                                <span class="focus-border">
+									<i></i>
+								</span>
+                            </div>
+                            <div class="get_code" onclick="dy()">获取手机动态密码</div>
+                            <div class="fc_reg clearfix">
+                                <a class="pull-left" href="{:U('user/login/forgot_password')}">忘记密码？</a>
+                                <a class="pull-right" href="{:leuu('user/register/index')}">新用户注册</a>
+                            </div>
+                            <button onclick="code_check()">登录</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="foot" style="border-top:1px solid transparent">
+    <div class="container">
+        <tc_include file="Public:footer" />
+    </div>
+</div>
+</body>
+
+<tc_include file="Public:scripts" />
+</html>
+<script>
+    function dy() {
+        var mobile  = $("#phone").val();
+
+        $.ajax({
+            type: 'GET', //请求类型
+            url: "{:U('user/login/dypassword')}", //提交URL地址
+            dataType: 'json',   //返回格式
+            data:{mobile:mobile},  //数据
+            success: function (data) { //如果成功，执行
+
+                if(data.status==1){
+                    layer.open({
+                        content: data.message,
+                        icon: 2,
+                    yes: function () {
+
+
+                        location.href = "{:leuu('user/register/index')}";
+                    }
+
+
+                    });
+                }else if (data.status != 0) {   //返回状态不为0时，显示对应的错误
+                    layer.open({
+                        content: data.message,
+                        icon: 2,
+                    });
+                    return;
+                }
+
+            },
+            error: function (xhr, status) { //如果失败，执行
+                console.log(xhr);   //在控制台显示错误的原因以及返回值
+                console.log(status);
+            }
+        });
+    }
+
+    function code_check() {
+        var code = $("#code").val();
+        var mobile = $("#phone").val();
+
+        $.ajax({
+            type: 'post', //请求类型
+            url: "{:U('user/login/dypassword')}", //提交URL地址
+            dataType: 'json',   //返回格式
+            data:{code:code,mobile:mobile},  //数据
+            success: function (data) { //如果成功，执行
+                if (data.status != 0) {   //返回状态不为0时，显示对应的错误
+                    layer.open({
+                        content: data.message,
+                        icon: 2,
+                    });
+                    return;
+                }
+                location.href = "";
+
+            },
+            error: function (xhr, status) { //如果失败，执行
+                console.log(xhr);   //在控制台显示错误的原因以及返回值
+                console.log(status);
+            }
+        });
+    }
+</script>
+

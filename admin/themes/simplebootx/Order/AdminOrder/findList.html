@@ -1,0 +1,74 @@
+
+<script src="__PUBLIC__/js/order/orderDel.js"></script>
+<admintpl file="header" />
+
+</head>
+<body>
+<div class="wrap js-check-wrap">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="{:U('AdminPage/index')}">查询订单结果</a></li>
+    </ul>
+
+    <form class="js-ajax-form" method="post">
+        <div class="table-actions">
+            <button class="btn btn-danger btn-small js-ajax-submit" type="submit" data-action="{:U('AdminPage/delete')}" data-subcheck="true" data-msg="{:L('DELETE_CONFIRM_MESSAGE')}">{:L('DELETE')}</button>
+        </div>
+        <table class="table table-hover table-bordered table-list">
+            <thead>
+            <tr>
+                <th width="16"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th>
+                <th width="100">订单编号</th>
+                <th width="120">创建时间</th>
+                <th width="120">顾客姓名</th>
+                <th width="120">月嫂姓名</th>
+                <th width="120">订单状态</th>
+                <th width="120">订单详情</th>
+                <th width="120">操作</th>
+            </tr>
+            </thead>
+
+            <foreach name="find" item="vo">
+                <tr>
+                    <td><input type="checkbox" class="js-check" data-yid="js-check-y" data-xid="js-check-x" name="ids[]" value="{$vo.id}"></td>
+                    <td><a>{$vo.order_id}</a></td>
+                    <td>{$vo.create_at}</td>
+                    <td>{$vo.user_nicename}</td>
+                    <td>{$vo.ys_name}</td>
+                    <td>
+                        <if condition="$vo.order_status eq 1">待付定金
+                        <elseif condition="$vo.order_status eq 2"/>待付余款
+                        <elseif condition="$vo.order_status eq 3"/>待评价
+                        <elseif condition="$vo.order_status eq 4"/>已完成
+                        <else /> 已关闭</if>
+                    </td>
+                    <td>
+                        <a href="{:U('Order/AdminOrder/detail',array('order_id'=>$vo['order_id']))}">查看订单详情</a>
+
+                    </td>
+                    <td><a href="javascript:;" onclick="order.del('{$vo.order_id}')">删除</a></td>
+                </tr>
+            </foreach>
+
+            <tfoot>
+            <tr>
+                <th width="16"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th>
+                <th width="100">订单编号</th>
+                <th>创建时间</th>
+                <th width="80">顾客姓名</th>
+                <th width="120">月嫂姓名</th>
+                <th width="120">订单状态</th>
+                <th width="120">订单详情</th>
+                <th width="120">操作</th>
+            </tr>
+            </tfoot>
+        </table>
+        <div class="table-actions">
+            <button class="btn btn-danger btn-small js-ajax-submit" type="submit" data-action="{:U('AdminPage/delete')}" data-subcheck="true" data-msg="你确定删除吗？">{:L('DELETE')}</button>
+        </div>
+        <div class="pagination">{$page}</div>
+    </form>
+</div>
+<script src="__PUBLIC__/js/common.js"></script>
+
+</body>
+</html>

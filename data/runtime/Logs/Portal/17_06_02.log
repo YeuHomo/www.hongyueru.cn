@@ -1,0 +1,69 @@
+[ 2017-06-02T14:44:56+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=check&uncheck=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_posts` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_terms` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_term_relationships` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: check D:\yuesao\application\Portal\Controller\AdminPostController.class.php 第 279 行.
+SQL: UPDATE `ys_posts` SET `post_status`='0' WHERE `id` IN ('16') [ RunTime:0.0000s ]
+
+[ 2017-06-02T14:45:01+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=check&uncheck=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_posts` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_terms` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_term_relationships` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: check D:\yuesao\application\Portal\Controller\AdminPostController.class.php 第 279 行.
+SQL: UPDATE `ys_posts` SET `post_status`='0' WHERE `id` IN ('16','12','13') [ RunTime:0.0010s ]
+
+[ 2017-06-02T14:45:04+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=check&check=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_posts` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_terms` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_term_relationships` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_posts` SET `post_status`='1' WHERE `id` IN ('16','12','13') [ RunTime:0.0000s ]
+
+[ 2017-06-02T16:10:42+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_posts` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_terms` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_term_relationships` [ RunTime:0.0010s ]
+SQL: DELETE FROM `ys_term_relationships` WHERE `object_id` = 12 AND `term_id` NOT IN ('1') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_term_relationships` WHERE `object_id` = 12 AND `term_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `ys_term_relationships` SET `status`='1' WHERE `object_id` = 12 AND `term_id` = '1' [ RunTime:0.0000s ]
+SQL: UPDATE `ys_posts` SET `post_title`='sdfs',`post_keywords`='sdfs',`post_source`='ds',`post_excerpt`='fsdfs',`post_date`='2017-05-31 13:14:49',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<p>fsf</p>',`post_modified`='2017-06-02 16:10:42',`smeta`='{\"thumb\":\"\",\"template\":\"\",\"photo\":[{\"url\":\"portal\\/20170602\\/59311d7e09108.jpg\",\"alt\":\"1.jpg\"},{\"url\":\"portal\\/20170602\\/59311d7e17f53.jpg\",\"alt\":\"2.jpg\"},{\"url\":\"portal\\/20170602\\/59311d7e288f7.jpg\",\"alt\":\"3.jpg\"},{\"url\":\"portal\\/20170602\\/59311d7e37f13.jpg\",\"alt\":\"4.jpg\"},{\"url\":\"portal\\/20170602\\/59311d7e47916.jpg\",\"alt\":\"8.jpg\"},{\"url\":\"portal\\/20170602\\/59311d7e57ed2.jpg\",\"alt\":\"130.jpg\"}]}' WHERE `id` = '12' [ RunTime:0.0000s ]
+

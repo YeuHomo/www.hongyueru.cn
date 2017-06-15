@@ -1,0 +1,9 @@
+[ 2017-06-08T14:04:33+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=MemberYuesao&a=yuesaoList
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2017-06-08T14:04:35+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=MemberYuesao&a=yuesaoList
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2017-06-08T14:05:25+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=MemberYuesao&a=yuesaoList
+ERR: Think\Controller:assgin方法不存在！
+

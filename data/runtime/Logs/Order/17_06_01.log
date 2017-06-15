@@ -1,0 +1,176 @@
+[ 2017-06-01T09:56:15+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.005001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `is_del`='0' WHERE ( order_id in(1,2,4,5,13,14) ) [ RunTime:0.0020s ]
+
+[ 2017-06-01T11:53:43+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `is_del`='0' WHERE ( order_id in(3,4) ) [ RunTime:0.0010s ]
+
+[ 2017-06-01T11:53:46+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_order` SET `is_del`='0' WHERE ( order_id in(3,4) ) [ RunTime:0.0010s ]
+
+[ 2017-06-01T11:53:49+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_order` SET `is_del`='0' WHERE ( order_id in(3,4) ) [ RunTime:0.0020s ]
+
+[ 2017-06-01T11:53:59+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `is_del`='0' WHERE ( order_id in(3,4) ) [ RunTime:0.0020s ]
+
+[ 2017-06-01T12:41:03+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:41:15+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:41:16+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=depositList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=1 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:41:17+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=balanceList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=2 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:41:21+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=evaluateList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=3 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:41:22+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=finishList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=4 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:41:22+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=closeList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=0 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:41:39+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=evaluateList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=3 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:41:41+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=closeList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=0 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:47:07+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:47:42+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:50:23+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:50:28+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:51:15+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:51:16+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=depositList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=1 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:51:19+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=balanceList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=2 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:51:20+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=evaluateList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=3 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:51:21+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=finishList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=4 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:51:22+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=closeList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=0 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:59:21+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=depositList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=1 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:59:23+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=balanceList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=2 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:59:23+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=evaluateList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=3 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T12:59:26+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=finishList
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=4 and is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-01T13:10:00+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: UPDATE `ys_order` SET `is_del`='0' WHERE ( order_id in(3,4) ) [ RunTime:0.0020s ]
+

@@ -1,0 +1,54 @@
+[ 2017-06-02T09:15:01+08:00 ] 127.0.0.1 /index.php?g=Order&m=User&a=userinfo_post
+ERR: 无法加载控制器:User
+
+[ 2017-06-02T10:14:45+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=edit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY create_at desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_id= ) ORDER BY create_at desc LIMIT 1  
+
+[ 2017-06-02T10:15:03+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=edit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY create_at desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_id= ) ORDER BY create_at desc LIMIT 1  
+
+[ 2017-06-02T10:16:24+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=edit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY create_at desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_id= ) ORDER BY create_at desc LIMIT 1  
+
+[ 2017-06-02T10:39:27+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=edit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY create_at desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_id= ) ORDER BY create_at desc LIMIT 1  
+
+[ 2017-06-02T10:40:31+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=edit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY create_at desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_id= ) ORDER BY create_at desc LIMIT 1  
+
+[ 2017-06-02T10:43:15+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=edit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY create_at desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_id= ) ORDER BY create_at desc LIMIT 1  
+
+[ 2017-06-02T10:45:38+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=edit
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_id=Array ) ORDER BY create_at desc LIMIT 1  
+
+[ 2017-06-02T15:58:42+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=detail&order_id=4
+ERR: 1052:Column 'order_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_comment` INNER JOIN ys_users ON ys_comment.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_comment.yuesao_id=ys_yuesao.ys_id INNER JOIN ys_order ON ys_comment.order_id=ys_order.order_id  WHERE ( order_id=4 ) 
+
+[ 2017-06-02T17:00:40+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=index
+ERR: 1052:Column 'is_del' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( user_id=1 AND is_del=1 ) 
+
+[ 2017-06-02T17:01:04+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=index
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2017-06-02T17:01:05+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=index
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2017-06-02T17:01:13+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=index
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2017-06-02T17:02:59+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=allOrder
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2017-06-02T17:04:11+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=allOrder
+ERR: 模板不存在:themes/simplebootx/Order/allOrder.html
+

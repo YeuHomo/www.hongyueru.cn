@@ -1,0 +1,6 @@
+[ 2017-06-01T10:47:29+08:00 ] 127.0.0.1 /index.php?g=Member&m=Member&a=Index
+ERR: 模板不存在:admin/themes/simplebootx/Member/Member/Index.html
+
+[ 2017-06-01T10:48:29+08:00 ] 127.0.0.1 /index.php?g=Member&m=Member&a=Index
+ERR: 模板不存在:admin/themes/simplebootx/Member/Member/Index.html
+

@@ -1,0 +1,28 @@
+[ 2017-06-06T09:15:33+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1054:Unknown column 'create_at' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( ys_order.is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-06T09:15:43+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1054:Unknown column 'create_at' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( ys_order.is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-06T09:15:44+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=depositList
+ERR: 1054:Unknown column 'create_at' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=1 and ys_order.is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-06T09:15:45+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=balanceList
+ERR: 1054:Unknown column 'create_at' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_status=2 and ys_order.is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-06T09:15:46+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1054:Unknown column 'create_at' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( ys_order.is_del=1 ) ORDER BY create_at desc 
+
+[ 2017-06-06T09:16:27+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=orderList
+ERR: 1054:Unknown column 'ys_order.create_at' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( ys_order.is_del=1 ) ORDER BY ys_order.create_at desc 
+
+[ 2017-06-06T09:19:04+08:00 ] 127.0.0.1 /index.php?g=Order&m=AdminOrder&a=detail&order_id=5
+ERR: 1054:Unknown column 'create_at' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ys_order` INNER JOIN ys_users ON ys_order.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_order.yuesao_id=ys_yuesao.ys_id  WHERE ( order_id=5 ) ORDER BY create_at desc LIMIT 1  
+

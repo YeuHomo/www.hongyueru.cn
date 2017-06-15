@@ -1,0 +1,115 @@
+
+<tc_include file="Public:head" />
+
+<div class="log_bgcolor">
+    <div class="log_content2">
+        <div class="container">
+            <div class="col-md-3 pull-left"> <img src="__TMPL__Public/assets2/img/logo2.png" width="279px" height="69px" class="log_content2_img"> </div>
+            <div class="pull-right col-md-9">
+                <ul class="log_content2_nav">
+                    <li style="border:none;width:12%;text-align: right;"><a href="{:U('Portal/Index/contact')}">联系我们</a></li>
+                    <li><a href="{:U('Portal/Index/about')}">关于我们</a></li>
+                    <li><a href="matching.html">智能匹配月嫂</a></li>
+                    <li  class="active"><a href="{:U('Yuesao/MemberYuesao/showorder')}">月嫂展示&预约</a></li>
+                    <li style="width: 12%;"><a href="{:U('Portal/Index/index')}">首页</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="subnav">
+            <p><a href="../../Portal/index.html" style="color:#333;">首页</a>　＞　月嫂展示&预约</p>
+        </div>
+        <!--为您推荐-->
+        <div class="main5 clearfix">
+            <p class="main5_p1">为您推荐 ● 杭州</p>
+            <p class="main5_p2">目前，世纪母婴在杭州地区共<span>{$count}</span>名月嫂可供您选择<a style="padding-left:20px;color:#ffb696;" href=""> >>查看更多</a></p>
+            <div class="main_content clearfix">
+
+                <foreach name="ys" item="vo">
+                <div class="content_list">
+                    <div class="news-item"> <img src="__TMPL__Public/assets2/img/1.png">
+                        <div class="news_pic"> <a href="showorder2.html"><img src="data/upload/{$vo.ys_avatar}"></a> </div>
+                        <div class="news-t1">{$vo.ys_name}</div>
+                        <div class="news-t2"><if condition="$vo.level eq 1">一<elseif condition="$vo.level eq 2"/>二<elseif condition="$vo.level eq 3"/>三<elseif condition="$vo.level eq 4"/>四<elseif condition="$vo.level eq 5"/>五<else/>无</if>星级月嫂</span>星级月嫂</div>
+                        <div class="news-t3">价格：{$vo.price|number_format=###, 0, '.', ''}元/26天</div>
+                        <div class="news-t4">{$vo.age}岁/{$vo.ys_address}/{$vo.experience}年月嫂经验</div>
+                        <div class="news-t5">{$vo.introduce}</div>
+                        <a class="news-t6" href="showorder2.html" style="color:#ffb696">+去看看</a> </div>
+                </div>
+                </foreach>
+        </div>
+        <div class="evaluate">
+            <p class="evaluate_title">晒单评价</p>
+            <ul id="RunTopic" style="position:relative;">
+                <div class="r-wrapper" style="position:absolute;top:0;left:0;">
+
+                    <foreach name="comment" item="vo">
+                    <li>
+                        <img src="data/upload/{$vo.ys_avatar}" class="RunTopic_img news_pic">
+                        <div class="RunTopic_content">
+                            <php>$user_name=mb_substr($vo['order_name'],0,1);</php>
+                            <p class="RunTopic_content_p">{$user_name}<if condition="$vo.sex eq 1">女士<else/>先生</if>
+                                <span>{$vo.create_at|strtotime|date="Y-m-d",###}</span>
+                                {$vo.order_mobile|substr=0,3}****{$vo.order_mobile|substr=7}
+                            </p>
+                            <span class="RunTopic_content_span">{$vo.content}</span>
+                        </div>
+                    </li>
+                    </foreach>
+
+                    <li>
+                        <img src="__TMPL__Public/assets2/img/showorder/1.png" class="RunTopic_img">
+                        <div class="RunTopic_content">
+                            <p class="RunTopic_content_p">刘女士<span>2017-03-03</span>188****2222</p>
+                            <span class="RunTopic_content_span">我家请的刘姐，刘姐照顾宝宝手法很专业，为人细心周到，干活也很麻利，每天给宝宝洗澡、一日三餐照顾我的饮食，还几乎包揽了家里所有的家务，家里人都对刘姐赞不绝口，感谢刘姐无微不至的照顾。</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="__TMPL__Public/assets2/img/showorder/1.png" class="RunTopic_img">
+                        <div class="RunTopic_content">
+                            <p class="RunTopic_content_p">吴女士<span>2017-03-03</span>188****2222</p>
+                            <span class="RunTopic_content_span">我家请的刘姐，刘姐照顾宝宝手法很专业，为人细心周到，干活也很麻利，每天给宝宝洗澡、一日三餐照顾我的饮食，还几乎包揽了家里所有的家务，家里人都对刘姐赞不绝口，感谢刘姐无微不至的照顾。</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="__TMPL__Public/assets2/img/showorder/1.png" class="RunTopic_img">
+                        <div class="RunTopic_content">
+                            <p class="RunTopic_content_p">李女士<span>2017-03-03</span>188****2222</p>
+                            <span class="RunTopic_content_span">我家请的刘姐，刘姐照顾宝宝手法很专业，为人细心周到，干活也很麻利，每天给宝宝洗澡、一日三餐照顾我的饮食，还几乎包揽了家里所有的家务，家里人都对刘姐赞不绝口，感谢刘姐无微不至的照顾。</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="__TMPL__Public/assets2/img/showorder/1.png" class="RunTopic_img">
+                        <div class="RunTopic_content">
+                            <p class="RunTopic_content_p">王楠士<span>2017-03-03</span>188****2222</p>
+                            <span class="RunTopic_content_span">我家请的刘姐，刘姐照顾宝宝手法很专业，为人细心周到，干活也很麻利，每天给宝宝洗澡、一日三餐照顾我的饮食，还几乎包揽了家里所有的家务，家里人都对刘姐赞不绝口，感谢刘姐无微不至的照顾。</span>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+    <tc_include file="Public:footer" />
+</div>
+
+<script type="text/javascript">
+
+    var i = 0;
+    var $wrap = $('.r-wrapper');
+
+    var $li = $('.r-wrapper>li');
+    var timer = setInterval(function () {
+        var offset = i * 5;
+        $wrap.css('transform', 'translateY(-'+ i * 5 +'px)');
+        i++;
+
+        if ( offset >= $wrap.height() - $li.height()){
+            i = 0;
+        }
+    }, 200);
+
+</script>
+</body>
+</html>

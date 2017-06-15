@@ -1,0 +1,220 @@
+[ 2017-05-31T08:23:49+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_role_user` [ RunTime:0.0030s ]
+SQL: SELECT `role_id` FROM ys_role_user a INNER JOIN ys_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0030s ]
+SQL: UPDATE `ys_users` SET `user_login`='admin',`user_pass`='###d894c461e5233aa4acd3acd05b75d6b3',`user_nicename`='admin',`user_email`='2634817136@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2017-05-31 08:23:49',`create_time`='2017-05-19 08:39:46',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='',`qq`=NULL,`wechat`=NULL WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-05-31T08:24:07+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/themes/simplebootx/theme.min.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:24:07+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/bootstrap/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:24:07+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/bootstrap/js/bootstrap.min.js
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:24:07+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:24:07+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:24:07+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/bootstrap/js/bootstrap.min.js
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:32:54+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/bootstrap/js/bootstrap.min.js
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:32:54+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:32:54+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/themes/simplebootx/theme.min.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:32:54+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/bootstrap/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:32:54+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:32:54+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/bootstrap/js/bootstrap.min.js
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:33:31+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Backup&a=restore
+ERR: 无法加载控制器:Backup
+
+[ 2017-05-31T08:33:32+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Backup&a=index
+ERR: 无法加载控制器:Backup
+
+[ 2017-05-31T08:34:11+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:34:11+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/themes/simplebootx/theme.min.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:34:11+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/bootstrap/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:34:11+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:34:11+08:00 ] 127.0.0.1 /admin/themes/simplebootx/Public/assets/simpleboot/bootstrap/js/bootstrap.min.js
+ERR: 无法加载控制器:Themes
+
+[ 2017-05-31T08:35:14+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T08:35:25+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=edit&id=163&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T09:01:02+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T09:05:51+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_role_user` [ RunTime:0.0010s ]
+SQL: SELECT `role_id` FROM ys_role_user a INNER JOIN ys_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0010s ]
+SQL: UPDATE `ys_users` SET `user_login`='admin',`user_pass`='###d894c461e5233aa4acd3acd05b75d6b3',`user_nicename`='admin',`user_email`='2634817136@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2017-05-31 09:05:51',`create_time`='2017-05-19 08:39:46',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='',`qq`=NULL,`wechat`=NULL WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-05-31T10:45:51+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_role_user` [ RunTime:0.0010s ]
+SQL: SELECT `role_id` FROM ys_role_user a INNER JOIN ys_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0010s ]
+SQL: UPDATE `ys_users` SET `user_login`='admin',`user_pass`='###d894c461e5233aa4acd3acd05b75d6b3',`user_nicename`='admin',`user_email`='2634817136@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2017-05-31 10:45:51',`create_time`='2017-05-19 08:39:46',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='',`qq`=NULL,`wechat`=NULL WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-05-31T12:53:17+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T14:40:36+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T14:40:41+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=add&parentid=162&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T14:42:48+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_menu` [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ys_menu` WHERE `app` = 'Yuesao' AND `model` = 'Yuesao' AND `action` = 'add' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `ys_menu` WHERE `id` = 162 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ys_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('162','添加月嫂','Yuesao','Yuesao','add','','','','1','1') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_auth_rule` WHERE `name` = 'yuesao/yuesao/add' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_auth_rule` (`name`,`module`,`type`,`title`) VALUES ('yuesao/yuesao/add','Yuesao','admin_url','添加月嫂') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_menu` WHERE `app` = 'Yuesao' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0000s ]
+NOTIC: [2] mkdir(): File exists D:\yuesao\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-05-31T14:42:48+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T15:13:26+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Backup&a=restore
+ERR: 无法加载控制器:Backup
+
+[ 2017-05-31T15:13:26+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Backup&a=index
+ERR: 无法加载控制器:Backup
+
+[ 2017-05-31T15:13:28+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Backup&a=index
+ERR: 无法加载控制器:Backup
+
+[ 2017-05-31T16:01:12+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T16:01:19+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=add&parentid=162&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T16:02:07+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_menu` [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ys_menu` WHERE `app` = 'Yuesao' AND `model` = 'Yuesao' AND `action` = 'list' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `ys_menu` WHERE `id` = 162 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ys_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('162','月嫂列表','Yuesao','Yuesao','list','','','','1','1') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_auth_rule` WHERE `name` = 'yuesao/yuesao/list' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `ys_auth_rule` (`name`,`module`,`type`,`title`) VALUES ('yuesao/yuesao/list','Yuesao','admin_url','月嫂列表') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_menu` WHERE `app` = 'Yuesao' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0000s ]
+NOTIC: [2] mkdir(): File exists D:\yuesao\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-05-31T16:02:07+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T16:03:20+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=edit&id=176&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-31T16:03:33+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_menu` [ RunTime:0.0020s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ys_menu` WHERE `id` = 176 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `ys_menu` WHERE `app` = 'Yuesao' AND `model` = 'Yuesao' AND `action` = 'ys_list' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_menu` SET `parentid`='162',`name`='月嫂列表',`app`='Yuesao',`model`='Yuesao',`action`='ys_list',`data`='',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 176 [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_auth_rule` WHERE `name` = 'yuesao/yuesao/ys_list' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `ys_auth_rule` WHERE `name` = 'yuesao/yuesao/list' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ys_auth_rule` SET `name`='yuesao/yuesao/ys_list',`module`='Yuesao',`type`='admin_url',`title`='月嫂列表' WHERE `id` = 174 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_menu` WHERE `app` = 'Yuesao' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0000s ]
+NOTIC: [2] mkdir(): File exists D:\yuesao\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-05-31T16:03:33+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=edit&id=176&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+

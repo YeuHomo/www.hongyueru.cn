@@ -1,0 +1,4 @@
+[ 2017-06-09T15:38:01+08:00 ] 127.0.0.1 /index.php?g=Yuesao&m=MemberYuesao&a=showorder
+ERR: 1146:Table 'yuesao.ys_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ys_comment` INNER JOIN ys_user ON ys_comment.user_id=ys_users.id INNER JOIN ys_yuesao ON ys_comment.yuesao_id=ys_yuesao.ys_id  WHERE ( content is not null ) 
+

@@ -1,0 +1,392 @@
+[ 2017-06-13T10:18:05+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: url D:\yuesao\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-13T10:42:22+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+NOTIC: [8] Undefined index: url D:\yuesao\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-13T10:42:32+08:00 ] 127.0.0.1 /index.php?g=user&m=login&a=dypassword&mobile=15715848354
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848354 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Controller:setJson方法不存在！
+
+[ 2017-06-13T10:42:34+08:00 ] 127.0.0.1 /index.php?g=user&m=login&a=dypassword&mobile=15715848354
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848354 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Controller:setJson方法不存在！
+
+[ 2017-06-13T10:42:35+08:00 ] 127.0.0.1 /index.php?g=user&m=login&a=dypassword
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY deadline desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_sms_varify` WHERE ( mobile=15715848354 and code= ) ORDER BY deadline desc LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY deadline desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_sms_varify` WHERE ( mobile=15715848354 and code= ) ORDER BY deadline desc LIMIT 1  
+
+[ 2017-06-13T10:42:38+08:00 ] 127.0.0.1 /index.php?g=user&m=login&a=dypassword&mobile=15715848354
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848354 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: Think\Controller:setJson方法不存在！
+
+[ 2017-06-13T10:42:43+08:00 ] 127.0.0.1 /index.php?g=user&m=login&a=dypassword&mobile=15715848354
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848354 ) LIMIT 1   [ RunTime:0.0010s ]
+ERR: Think\Controller:setJson方法不存在！
+
+[ 2017-06-13T10:43:28+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: url D:\yuesao\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-13T10:43:33+08:00 ] 127.0.0.1 /index.php?g=user&m=login&a=dypassword&mobile=15748266512
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15748266512 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-13T10:43:38+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+
+[ 2017-06-13T10:46:50+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+
+[ 2017-06-13T10:46:51+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+
+[ 2017-06-13T10:46:52+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+
+[ 2017-06-13T10:47:02+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+
+[ 2017-06-13T10:47:13+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+
+[ 2017-06-13T10:47:30+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+
+[ 2017-06-13T10:49:12+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ys_users` WHERE ( mobile=admin ) LIMIT 1  
+
+[ 2017-06-13T10:50:06+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: url D:\yuesao\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-13T11:31:21+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8] Undefined index: url D:\yuesao\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-13T11:31:27+08:00 ] 127.0.0.1 /index.php?g=user&m=login&a=dypassword&mobile=154445
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=154445 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T11:32:22+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=1598745626
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=1598745626 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('1598745626','181820','2017-06-13 11-37-22') [ RunTime:0.0040s ]
+
+[ 2017-06-13T11:32:30+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=1598745626
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=1598745626 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('1598745626','336837','2017-06-13 11-37-30') [ RunTime:0.0040s ]
+
+[ 2017-06-13T11:32:57+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','730944','2017-06-13 11-37-57') [ RunTime:0.0030s ]
+
+[ 2017-06-13T11:36:50+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','418301','2017-06-13 11-41-50') [ RunTime:0.0030s ]
+
+[ 2017-06-13T11:36:53+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','976104','2017-06-13 11-41-53') [ RunTime:0.0020s ]
+
+[ 2017-06-13T11:37:21+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','652832','2017-06-13 11-42-21') [ RunTime:0.0020s ]
+
+[ 2017-06-13T11:37:45+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','847756','2017-06-13 11-42-45') [ RunTime:0.0020s ]
+
+[ 2017-06-13T11:38:15+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0040s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','255511','2017-06-13 11-43-15') [ RunTime:0.0020s ]
+
+[ 2017-06-13T11:40:10+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','542941','2017-06-13 11-45-10') [ RunTime:0.0020s ]
+
+[ 2017-06-13T11:40:17+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','471228','2017-06-13 11-45-17') [ RunTime:0.0030s ]
+
+[ 2017-06-13T11:40:19+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','684170','2017-06-13 11-45-19') [ RunTime:0.0020s ]
+
+[ 2017-06-13T11:40:39+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','930841','2017-06-13 11-45-39') [ RunTime:0.0020s ]
+
+[ 2017-06-13T11:40:46+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','635116','2017-06-13 11-45-46') [ RunTime:0.0010s ]
+
+[ 2017-06-13T11:40:53+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=getcode&mobile=15715848363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE ( mobile=15715848363 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_sms_varify` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_sms_varify` (`mobile`,`code`,`deadline`) VALUES ('15715848363','674584','2017-06-13 11-45-53') [ RunTime:0.0010s ]
+
+[ 2017-06-13T11:42:41+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: url D:\yuesao\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-13T13:50:39+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: url D:\yuesao\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-13T13:54:14+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: url D:\yuesao\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-13T14:35:34+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: url D:\yuesao\application\Common\Controller\AppframeController.class.php 第 22 行.
+

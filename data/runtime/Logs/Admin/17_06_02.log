@@ -1,0 +1,145 @@
+[ 2017-06-02T09:07:28+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ys_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_role_user` [ RunTime:0.0040s ]
+SQL: SELECT `role_id` FROM ys_role_user a INNER JOIN ys_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0030s ]
+SQL: UPDATE `ys_users` SET `user_login`='admin',`user_pass`='###d894c461e5233aa4acd3acd05b75d6b3',`user_nicename`='admin',`user_email`='2634817136@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2017-06-02 09:07:28',`create_time`='2017-05-19 08:39:46',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='15715848363',`qq`=NULL,`wechat`=NULL WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-06-02T09:59:28+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_role_user` [ RunTime:0.0010s ]
+SQL: SELECT `role_id` FROM ys_role_user a INNER JOIN ys_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0010s ]
+SQL: UPDATE `ys_users` SET `user_login`='admin',`user_pass`='###d894c461e5233aa4acd3acd05b75d6b3',`user_nicename`='admin',`user_email`='2634817136@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2017-06-02 09:59:28',`create_time`='2017-05-19 08:39:46',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='15715848363',`qq`=NULL,`wechat`=NULL WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-06-02T14:06:04+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-06-02T14:06:06+08:00 ] 127.0.0.1 /index.php?g=Admin&m=menu&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-06-02T16:34:06+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ys_nav` (`cid`,`parentid`,`label`,`href`,`target`,`icon`,`status`) VALUES ('1','0','订单','home','','','1') [ RunTime:0.0000s ]
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='0',`label`='订单',`href`='home',`target`='',`icon`='',`status`='1',`path`='0-4' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-06-02T16:37:07+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='0',`label`='订单',`href`='a:2:{s:6:\"action\";s:17:\"Portal/Page/index\";s:5:\"param\";a:1:{s:2:\"id\";s:1:\"1\";}}',`target`='',`icon`='',`status`='1',`path`='0-4' WHERE `id` = 4 [ RunTime:0.0010s ]
+
+[ 2017-06-02T16:41:41+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-06-02T16:43:34+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-06-02T16:43:49+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.005001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ys_nav` (`cid`,`parentid`,`label`,`target`,`icon`,`status`,`href`) VALUES ('1','4','我的订单','','','1','http://www.yuesao.com/index.php?g=Order&m=MemberOrder&a=index') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' D:\yuesao\application\Admin\Controller\NavController.class.php 第 110 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='4',`label`='我的订单',`target`='',`icon`='',`status`='1',`href`='http://www.yuesao.com/index.php?g=Order&amp;m=MemberOrder&amp;a=index',`path`='0-4-5' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-06-02T17:02:04+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='4',`label`='我的订单',`target`='',`icon`='',`status`='1',`path`='0-4-5',`href`='http://www.yuesao.com/index.php?g=Order&amp;m=MemberOrder&a=allOrder' WHERE `id` = 5 [ RunTime:0.0010s ]
+
+[ 2017-06-02T17:06:04+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ys_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='4',`label`='我的订单',`target`='',`icon`='',`status`='1',`path`='0-4-5',`href`='http://www.yuesao.com/index.php?g=Order&m=MemberOrder&a=allOrder' WHERE `id` = 5 [ RunTime:0.0010s ]
+

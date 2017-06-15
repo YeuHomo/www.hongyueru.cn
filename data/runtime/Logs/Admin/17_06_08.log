@@ -1,0 +1,231 @@
+[ 2017-06-08T13:51:56+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_role_user` [ RunTime:0.0020s ]
+SQL: SELECT `role_id` FROM ys_role_user a INNER JOIN ys_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0020s ]
+SQL: UPDATE `ys_users` SET `user_login`='admin',`user_pass`='###d894c461e5233aa4acd3acd05b75d6b3',`user_nicename`='admin',`user_email`='2634817136@qq.com',`user_url`='',`avatar`='default/20170531/592e8644cf6c4.jpg',`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2017-06-08 13:51:56',`create_time`='2017-05-19 08:39:46',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='15715848363',`qq`=NULL,`wechat`=NULL WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-06-08T13:52:48+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.005001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ys_nav` (`cid`,`parentid`,`label`,`href`,`target`,`icon`,`status`) VALUES ('1','0','月嫂管理','home','','','1') [ RunTime:0.0010s ]
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='0',`label`='月嫂管理',`href`='home',`target`='',`icon`='',`status`='1',`path`='0-6' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-06-08T13:53:54+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ys_nav` (`cid`,`parentid`,`label`,`target`,`icon`,`status`,`href`) VALUES ('1','6','月嫂列表','','','1','http://www.yuesao.com/index.php?g=Yuesao&m=MemberYuesao&a=YuesaoList') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_nav` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' D:\yuesao\application\Admin\Controller\NavController.class.php 第 110 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='6',`label`='月嫂列表',`target`='',`icon`='',`status`='1',`href`='http://www.yuesao.com/index.php?g=Yuesao&amp;m=MemberYuesao&amp;a=YuesaoList',`path`='0-6-7' WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-06-08T13:55:37+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_nav` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='6',`label`='月嫂列表',`target`='',`icon`='',`status`='1',`path`='0-6-7',`href`='http://www.yuesao.com/index.php?g=Yuesao&m=MemberYuesao&a=yuesaoList' WHERE `id` = 7 [ RunTime:0.0010s ]
+
+[ 2017-06-08T17:01:13+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ys_nav` (`cid`,`parentid`,`label`,`target`,`icon`,`status`,`href`) VALUES ('1','0','登录','','','1','http://www.yuesao.com/index.php?g=Login&m=Login&a=Login') [ RunTime:0.0010s ]
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='0',`label`='登录',`target`='',`icon`='',`status`='1',`href`='http://www.yuesao.com/index.php?g=Login&amp;m=Login&amp;a=Login',`path`='0-8' WHERE `id` = 8 [ RunTime:0.0010s ]
+
+[ 2017-06-08T17:07:49+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='0',`label`='登录',`target`='',`icon`='',`status`='1',`path`='0-8',`href`='http://www.yuesao.com/index.php?g=Login&amp;m=Login&amp;a=Login' WHERE `id` = 8 [ RunTime:0.0000s ]
+
+[ 2017-06-08T17:09:13+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='0',`label`='登录',`target`='',`icon`='',`status`='1',`path`='0-8',`href`='http://www.yuesao.com/index.php?g=Login&m=Login&a=index' WHERE `id` = 8 [ RunTime:0.0010s ]
+
+[ 2017-06-08T17:10:15+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.007000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='0',`label`='登录',`target`='',`icon`='',`status`='1',`path`='0-8',`href`='http://www.yuesao.com/index.php?g=Login&m=Register&a=index' WHERE `id` = 8 [ RunTime:0.0000s ]
+
+[ 2017-06-08T17:12:49+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-06-08T17:13:04+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.008001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='0',`label`='登录',`target`='',`icon`='',`status`='1',`path`='0-8',`href`='' WHERE `id` = 8 [ RunTime:0.0010s ]
+
+[ 2017-06-08T17:13:10+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-06-08T17:13:18+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ys_nav` (`cid`,`parentid`,`label`,`href`,`target`,`icon`,`status`) VALUES ('1','8','注册','home','','','1') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_nav` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' D:\yuesao\application\Admin\Controller\NavController.class.php 第 110 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='8',`label`='注册',`href`='home',`target`='',`icon`='',`status`='1',`path`='0-8-9' WHERE `id` = 9 [ RunTime:0.0010s ]
+
+[ 2017-06-08T17:13:51+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='8',`label`='注册',`href`='home',`target`='',`icon`='',`status`='1',`path`='0-8-9' WHERE `id` = 9 [ RunTime:0.0000s ]
+
+[ 2017-06-08T17:14:22+08:00 ] 127.0.0.1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_nav_cat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\yuesao\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ys_nav` SET `cid`='1',`parentid`='8',`label`='注册',`target`='',`icon`='',`status`='1',`path`='0-8-9',`href`='http://www.yuesao.com/index.php?g=Login&m=Register&a=index' WHERE `id` = 9 [ RunTime:0.0010s ]
+

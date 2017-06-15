@@ -1,0 +1,1219 @@
+[ 2017-06-08T09:39:35+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`) VALUES ('3','0','0','0','','2','1','2017-06-08') [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `order_id`='3',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='8000',`order_status`='4',`leave_message`='1111111111',`address`='2222222222222',`is_del`='1',`order_create_at`='2017-05-03',`order_time`='2017-05-23',`start_confinement`='2017-05-01',`end_confinement`='2017-05-02',`start_serve`='2017-06-01',`end_serve`='2017-06-28',`order_name`='小东',`order_mobile`='15987620015' WHERE ( order_id=3 ) [ RunTime:0.0020s ]
+
+[ 2017-06-08T09:44:03+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T09:44:09+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T09:44:12+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T09:44:17+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T10:09:28+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_order` WHERE ( order_id= ) LIMIT 1  
+
+[ 2017-06-08T10:23:18+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T10:25:21+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T10:26:39+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T10:26:45+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T10:27:27+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T10:27:27+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T10:27:43+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T10:40:58+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 102 行.
+NOTIC: [8] Undefined index: images D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 107 行.
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\yuesao\simplewind\Core\Library\Think\Db\Driver.class.php 第 805 行.
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`) VALUES ('3','3','5','4','44444444444','2','1','2017-06-08') [ RunTime:0.0030s ]
+SQL: UPDATE `ys_order` SET `order_id`='3',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='8000',`order_status`='4',`leave_message`='1111111111',`address`='2222222222222',`is_del`='1',`order_create_at`='2017-05-03',`order_time`='2017-05-23',`start_confinement`='2017-05-01',`end_confinement`='2017-05-02',`start_serve`='2017-06-01',`end_serve`='2017-06-28',`order_name`='小东',`order_mobile`='15987620015' WHERE ( order_id=3 ) [ RunTime:0.0020s ]
+
+[ 2017-06-08T10:42:22+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T10:45:39+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T10:45:59+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T10:46:55+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T10:47:30+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T10:54:47+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T10:55:56+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T10:57:15+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T10:58:22+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T10:58:53+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: thumb D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\yuesao\simplewind\Core\Library\Think\Db\Driver.class.php 第 805 行.
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`) VALUES ('3','4','5','4','6666666666','2','1','2017-06-08') [ RunTime:0.0030s ]
+SQL: UPDATE `ys_order` SET `order_id`='3',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='8000',`order_status`='4',`leave_message`='1111111111',`address`='2222222222222',`is_del`='1',`order_create_at`='2017-05-03',`order_time`='2017-05-23',`start_confinement`='2017-05-01',`end_confinement`='2017-05-02',`start_serve`='2017-06-01',`end_serve`='2017-06-28',`order_name`='小东',`order_mobile`='15987620015' WHERE ( order_id=3 ) [ RunTime:0.0020s ]
+
+[ 2017-06-08T10:59:32+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: thumb D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\yuesao\simplewind\Core\Library\Think\Db\Driver.class.php 第 805 行.
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`) VALUES ('3','4','5','4','6666666666','2','1','2017-06-08') [ RunTime:0.0040s ]
+SQL: UPDATE `ys_order` SET `order_id`='3',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='8000',`order_status`='4',`leave_message`='1111111111',`address`='2222222222222',`is_del`='1',`order_create_at`='2017-05-03',`order_time`='2017-05-23',`start_confinement`='2017-05-01',`end_confinement`='2017-05-02',`start_serve`='2017-06-01',`end_serve`='2017-06-28',`order_name`='小东',`order_mobile`='15987620015' WHERE ( order_id=3 ) [ RunTime:0.0030s ]
+
+[ 2017-06-08T10:59:52+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T11:02:11+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: thumb D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 108 行.
+
+[ 2017-06-08T11:04:09+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: thumb D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 108 行.
+
+[ 2017-06-08T11:05:45+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: thumb D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 108 行.
+
+[ 2017-06-08T11:06:38+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: thumb D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 108 行.
+
+[ 2017-06-08T11:08:48+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T11:09:15+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`) VALUES ('3','4','5','4','1111111111','2','1','2017-06-08') [ RunTime:0.0030s ]
+SQL: UPDATE `ys_order` SET `order_id`='3',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='8000',`order_status`='4',`leave_message`='1111111111',`address`='2222222222222',`is_del`='1',`order_create_at`='2017-05-03',`order_time`='2017-05-23',`start_confinement`='2017-05-01',`end_confinement`='2017-05-02',`start_serve`='2017-06-01',`end_serve`='2017-06-28',`order_name`='小东',`order_mobile`='15987620015' WHERE ( order_id=3 ) [ RunTime:0.0020s ]
+
+[ 2017-06-08T11:12:19+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0030s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T11:14:21+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T11:14:50+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`) VALUES ('5','4','5','4','55555555','2','3','2017-06-08') [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `order_id`='5',`user_id`='2',`yuesao_id`='3',`deposit`='800',`balance`='7000',`order_status`='4',`leave_message`='111111111',`address`='22222222',`is_del`='1',`order_create_at`='2017-05-16',`order_time`='2017-05-09',`start_confinement`=NULL,`end_confinement`=NULL,`start_serve`='2017-06-28',`end_serve`='2017-06-30',`order_name`='小北',`order_mobile`='13346113636' WHERE ( order_id=5 ) [ RunTime:0.0020s ]
+
+[ 2017-06-08T11:16:21+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`) VALUES ('5','3','5','4','','2','3','2017-06-08') [ RunTime:0.0060s ]
+SQL: UPDATE `ys_order` SET `order_id`='5',`user_id`='2',`yuesao_id`='3',`deposit`='800',`balance`='7000',`order_status`='4',`leave_message`='111111111',`address`='22222222',`is_del`='1',`order_create_at`='2017-05-16',`order_time`='2017-05-09',`start_confinement`=NULL,`end_confinement`=NULL,`start_serve`='2017-06-28',`end_serve`='2017-06-30',`order_name`='小北',`order_mobile`='13346113636' WHERE ( order_id=5 ) [ RunTime:0.0030s ]
+
+[ 2017-06-08T11:16:40+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T11:24:36+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T11:25:07+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T11:25:32+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`,`images`) VALUES ('5','4','4','4','俄大多数','2','3','2017-06-08','[{\"url\":\"default\\/20170608\\/5938c3aa979e2.JPG\",\"alt\":\"IMG_3679.JPG\"},{\"url\":\"default\\/20170608\\/5938c3aab1410.jpg\",\"alt\":\"psb.jpg\"},{\"url\":\"default\\/20170608\\/5938c3aac8345.jpg\",\"alt\":\"psqwqeb.jpg\"}]') [ RunTime:0.8130s ]
+SQL: UPDATE `ys_order` SET `order_id`='5',`user_id`='2',`yuesao_id`='3',`deposit`='800',`balance`='7000',`order_status`='4',`leave_message`='111111111',`address`='22222222',`is_del`='1',`order_create_at`='2017-05-16',`order_time`='2017-05-09',`start_confinement`=NULL,`end_confinement`=NULL,`start_serve`='2017-06-28',`end_serve`='2017-06-30',`order_name`='小北',`order_mobile`='13346113636' WHERE ( order_id=5 ) [ RunTime:0.3370s ]
+
+[ 2017-06-08T11:50:32+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: thumb D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`,`images`) VALUES ('1','4','4','3','','2','1','2017-06-08','{\"photo\":[{\"url\":\"default\\/20170608\\/5938c98685fd1.JPG\",\"alt\":\"IMG_3679.JPG\"},{\"url\":\"default\\/20170608\\/5938c9869f617.jpg\",\"alt\":\"psb.jpg\"},{\"url\":\"default\\/20170608\\/5938c986b6934.jpg\",\"alt\":\"psqwqeb.jpg\"}],\"thumb\":\"\"}') [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `order_id`='1',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='-1000',`order_status`='4',`leave_message`='11111111111111111111',`address`='1222222222222222',`is_del`='1',`order_create_at`='2017-05-03',`order_time`='2017-05-16',`start_confinement`='2017-05-31',`end_confinement`='2017-06-01',`start_serve`='2017-06-02',`end_serve`='2017-07-01',`order_name`='张三',`order_mobile`='15845921232' WHERE ( order_id=1 ) [ RunTime:0.0020s ]
+
+[ 2017-06-08T11:52:07+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`,`images`) VALUES ('3','3','5','3','666666666','2','1','2017-06-08','{\"photo\":[{\"url\":\"default\\/20170608\\/5938c9e675048.JPG\",\"alt\":\"IMG_3679.JPG\"},{\"url\":\"default\\/20170608\\/5938c9e68e2a6.jpg\",\"alt\":\"psb.jpg\"},{\"url\":\"default\\/20170608\\/5938c9e6a78ec.jpg\",\"alt\":\"psqwqeb.jpg\"}]}') [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `order_id`='3',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='8000',`order_status`='4',`leave_message`='1111111111',`address`='2222222222222',`is_del`='1',`order_create_at`='2017-05-03',`order_time`='2017-05-23',`start_confinement`='2017-05-01',`end_confinement`='2017-05-02',`start_serve`='2017-06-01',`end_serve`='2017-06-28',`order_name`='小东',`order_mobile`='15987620015' WHERE ( order_id=3 ) [ RunTime:0.0010s ]
+
+[ 2017-06-08T11:53:32+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`,`images`) VALUES ('5','4','5','4','','2','3','2017-06-08','[{\"url\":\"default\\/20170608\\/5938ca3a47502.JPG\",\"alt\":\"IMG_3679.JPG\"},{\"url\":\"default\\/20170608\\/5938ca3a678a9.jpg\",\"alt\":\"psb.jpg\"},{\"url\":\"default\\/20170608\\/5938ca3a7d456.jpg\",\"alt\":\"psqwqeb.jpg\"}]') [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `order_id`='5',`user_id`='2',`yuesao_id`='3',`deposit`='800',`balance`='7000',`order_status`='4',`leave_message`='111111111',`address`='22222222',`is_del`='1',`order_create_at`='2017-05-16',`order_time`='2017-05-09',`start_confinement`=NULL,`end_confinement`=NULL,`start_serve`='2017-06-28',`end_serve`='2017-06-30',`order_name`='小北',`order_mobile`='13346113636' WHERE ( order_id=5 ) [ RunTime:0.0020s ]
+
+[ 2017-06-08T12:44:33+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0000s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`,`images`) VALUES ('3','4','5','4','sdz','2','1','2017-06-08','[{\"url\":\"default\\/20170608\\/5938d62fa0540.jpg\",\"alt\":\"psb.jpg\"},{\"url\":\"default\\/20170608\\/5938d62fb0714.jpg\",\"alt\":\"psqwqeb.jpg\"}]') [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `order_id`='3',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='8000',`order_status`='4',`leave_message`='1111111111',`address`='2222222222222',`is_del`='1',`order_create_at`='2017-05-03',`order_time`='2017-05-23',`start_confinement`='2017-05-01',`end_confinement`='2017-05-02',`start_serve`='2017-06-01',`end_serve`='2017-06-28',`order_name`='小东',`order_mobile`='15987620015' WHERE ( order_id=3 ) [ RunTime:0.0020s ]
+
+[ 2017-06-08T12:48:14+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T12:48:18+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T13:01:20+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0000s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`,`images`) VALUES ('4','3','5','4','7777777777','2','1','2017-06-08','{\"url\":\"default\\/20170608\\/5938da1f44af9.jpg\"}') [ RunTime:0.0050s ]
+SQL: UPDATE `ys_order` SET `order_id`='4',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='8000',`order_status`='4',`leave_message`='11111111111',`address`='2222222222',`is_del`='1',`order_create_at`='2017-05-01',`order_time`='2017-05-02',`start_confinement`=NULL,`end_confinement`=NULL,`start_serve`='2017-06-26',`end_serve`='2017-06-20',`order_name`='小西',`order_mobile`='13942230000' WHERE ( order_id=4 ) [ RunTime:0.0020s ]
+
+[ 2017-06-08T13:01:49+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`,`images`) VALUES ('4','4','5','4','7777777777','2','1','2017-06-08','[{\"url\":\"default\\/20170608\\/5938da3c45174.JPG\"},{\"url\":\"default\\/20170608\\/5938da3c5f372.jpg\"},{\"url\":\"default\\/20170608\\/5938da3c78da0.jpg\"}]') [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `order_id`='4',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='8000',`order_status`='4',`leave_message`='11111111111',`address`='2222222222',`is_del`='1',`order_create_at`='2017-05-01',`order_time`='2017-05-02',`start_confinement`=NULL,`end_confinement`=NULL,`start_serve`='2017-06-26',`end_serve`='2017-06-20',`order_name`='小西',`order_mobile`='13942230000' WHERE ( order_id=4 ) [ RunTime:0.0010s ]
+
+[ 2017-06-08T13:04:15+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`,`images`) VALUES ('5','4','0','5','','2','3','2017-06-08','[{\"url\":\"default\\/20170608\\/5938dacd03f92.JPG\"},{\"url\":\"default\\/20170608\\/5938dacd1c638.jpg\"},{\"url\":\"default\\/20170608\\/5938dacd2fad4.jpg\"}]') [ RunTime:0.0020s ]
+SQL: UPDATE `ys_order` SET `order_id`='5',`user_id`='2',`yuesao_id`='3',`deposit`='800',`balance`='7000',`order_status`='4',`leave_message`='111111111',`address`='22222222',`is_del`='1',`order_create_at`='2017-05-16',`order_time`='2017-05-09',`start_confinement`=NULL,`end_confinement`=NULL,`start_serve`='2017-06-28',`end_serve`='2017-06-30',`order_name`='小北',`order_mobile`='13346113636' WHERE ( order_id=5 ) [ RunTime:0.0020s ]
+
+[ 2017-06-08T13:39:28+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=evaluatePost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_order` WHERE ( order_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_comment` [ RunTime:0.0000s ]
+SQL: INSERT INTO `ys_comment` (`order_id`,`comprehensive_score`,`skill_score`,`attitude_score`,`content`,`user_id`,`yuesao_id`,`create_at`,`images`) VALUES ('1','4','5','4','阿三大大','2','1','2017-06-08','[{\"url\":\"default\\/20170608\\/5938e300b2503.jpg\"},{\"url\":\"default\\/20170608\\/5938e300c1f07.jpg\"},{\"url\":\"default\\/20170608\\/5938e300d019a.jpg\"},{\"url\":\"default\\/20170608\\/5938e300de815.jpg\"},{\"url\":\"default\\/20170608\\/5938e300ebef1.jpg\"},{\"url\":\"default\\/20170608\\/5938e30105774.jpg\"},{\"url\":\"default\\/20170608\\/5938e30112a67.jpg\"},{\"url\":\"default\\/20170608\\/5938e30da0ea6.jpg\"},{\"url\":\"default\\/20170608\\/5938e30daf90a.jpg\"},{\"url\":\"default\\/20170608\\/5938e30dbdf85.jpg\"},{\"url\":\"default\\/20170608\\/5938e30dcc601.jpg\"},{\"url\":\"default\\/20170608\\/5938e30dda0c4.jpg\"},{\"url\":\"default\\/20170608\\/5938e30de73b7.jpg\"},{\"url\":\"default\\/20170608\\/5938e30e00c3a.jpg\"},{\"url\":\"default\\/20170608\\/5938e30e0eae5.jpg\"}]') [ RunTime:0.0010s ]
+SQL: UPDATE `ys_order` SET `order_id`='1',`user_id`='2',`yuesao_id`='1',`deposit`='1000',`balance`='-1000',`order_status`='4',`leave_message`='11111111111111111111',`address`='1222222222222222',`is_del`='1',`order_create_at`='2017-05-03',`order_time`='2017-05-16',`start_confinement`='2017-05-31',`end_confinement`='2017-06-01',`start_serve`='2017-06-02',`end_serve`='2017-07-01',`order_name`='张三',`order_mobile`='15845921232' WHERE ( order_id=1 ) [ RunTime:0.0030s ]
+
+[ 2017-06-08T14:48:31+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_yuesao` WHERE ( ys_id= ) LIMIT 1  
+
+[ 2017-06-08T14:49:25+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_yuesao` WHERE ( ys_id= ) LIMIT 1  
+
+[ 2017-06-08T14:50:17+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_yuesao` WHERE ( ys_id= ) LIMIT 1  
+
+[ 2017-06-08T14:51:02+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ys_yuesao` WHERE ( ys_id= ) LIMIT 1  
+
+[ 2017-06-08T15:18:38+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+
+[ 2017-06-08T15:18:39+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+
+[ 2017-06-08T15:18:55+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+
+[ 2017-06-08T15:19:43+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+
+[ 2017-06-08T15:19:44+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+
+[ 2017-06-08T15:19:48+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+
+[ 2017-06-08T15:19:58+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('123','3212','2017-06-23','312','3123','1',NULL,'888.8','7999.2','1','2017-06-08','1','2017-06-23','2017-07-19') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T15:19:59+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('123','3212','2017-06-23','312','3123','1',NULL,'888.8','7999.2','1','2017-06-08','1','2017-06-23','2017-07-19') [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T15:21:18+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+
+[ 2017-06-08T15:21:28+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('asdad','asdasda','2017-06-29','asd','as','1',NULL,'888.8','7999.2','1','2017-06-08','1','2017-06-29','2017-07-25') [ RunTime:0.0020s ]
+
+[ 2017-06-08T15:22:10+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('asdad','asdasda','2017-06-29','asd','as','1',NULL,'888.8','7999.2','1','2017-06-08','1','2017-06-29','2017-07-25') [ RunTime:0.0010s ]
+
+[ 2017-06-08T15:22:18+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0000s ]
+SQL: INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('asda','asd','2017-06-22','43','34','1',NULL,'888.8','7999.2','1','2017-06-08','1','2017-06-22','2017-07-18') [ RunTime:0.0020s ]
+
+[ 2017-06-08T15:33:43+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_order` WHERE `order_id` = 2147483647 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 46 行.
+SQL: INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('wrfsd','的方法','2017-06-27','sfd','sfd ','1','2147483647',NULL,'888.8','7999.2','1','2017-06-08','1','2017-06-27','2017-07-23') [ RunTime:0.0010s ]
+
+[ 2017-06-08T15:37:34+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0030s ]
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1','2147483647',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','1','2147483647',NULL,'888.8','7999.2','1','2017-06-08','1','','1970-01-27')
+
+[ 2017-06-08T15:37:45+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Trying to get property of non-object D:\yuesao\application\Order\Controller\MemberOrderController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('34534','热土4 ','2017-06-29','如图','热土','1','2147483647',NULL,'888.8','7999.2','1','2017-06-08','1','2017-06-29','2017-07-25')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('34534','热土4 ','2017-06-29','如图','热土','1','2147483647',NULL,'888.8','7999.2','1','2017-06-08','1','2017-06-29','2017-07-25')
+
+[ 2017-06-08T15:39:25+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('24','惹我','2017-06-27','而','玩儿','3','2147483647','2','1000','9000','1','2017-06-08','1','2017-06-27','2017-07-23')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('24','惹我','2017-06-27','而','玩儿','3','2147483647','2','1000','9000','1','2017-06-08','1','2017-06-27','2017-07-23')
+
+[ 2017-06-08T15:39:31+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('24','惹我','2017-06-27','而','玩儿','3','2147483647','2','1000','9000','1','2017-06-08','1','2017-06-27','2017-07-23')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('24','惹我','2017-06-27','而','玩儿','3','2147483647','2','1000','9000','1','2017-06-08','1','2017-06-27','2017-07-23')
+
+[ 2017-06-08T15:41:04+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T15:46:54+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0030s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('阿旺乡','阿尔','2017-06-29','','','3','2147483647','2','1000','9000','1','2017-06-08','1','2017-06-29','2017-07-25')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('阿旺乡','阿尔','2017-06-29','','','3','2147483647','2','1000','9000','1','2017-06-08','1','2017-06-29','2017-07-25')
+
+[ 2017-06-08T15:47:44+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T15:49:29+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('gdf','dfg ','2017-06-21','dfg','','3','2147483647','2','1000','9000','1','2017-06-08','1','2017-06-21','2017-07-17')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('gdf','dfg ','2017-06-21','dfg','','3','2147483647','2','1000','9000','1','2017-06-08','1','2017-06-21','2017-07-17')
+
+[ 2017-06-08T15:50:15+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T15:50:19+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T15:51:10+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T15:52:58+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T15:53:15+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','3','2147483647','2','1000','9000','1','2017-06-08','1','','1970-01-27')
+ERR: 1292:Incorrect date value: '' for column 'order_time' at row 1
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('','','','','','3','2147483647','2','1000','9000','1','2017-06-08','1','','1970-01-27')
+
+[ 2017-06-08T15:53:27+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('dfss','fsd','2017-06-07','sdfsd','fs','3','2147483647','2','1000','9000','1','2017-06-08','1','2017-06-07','2017-07-03')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('dfss','fsd','2017-06-07','sdfsd','fs','3','2147483647','2','1000','9000','1','2017-06-08','1','2017-06-07','2017-07-03')
+
+[ 2017-06-08T15:53:58+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T15:57:50+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0000s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-08T15:58:06+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('sada','das','2017-06-22','asd','ad','3','201706083612','2','1000','9000','1','2017-06-08','1','2017-06-22','2017-07-18') [ RunTime:0.0010s ]
+
+[ 2017-06-08T16:01:05+08:00 ] 127.0.0.1 /index.php?g=Order&m=MemberOrder&a=addOrder&ys_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0020s ]
+SQL: SELECT `user_status` FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_yuesao` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_yuesao` WHERE ( ys_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ys_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ys_order` (`order_name`,`order_mobile`,`order_time`,`address`,`leave_message`,`yuesao_id`,`order_id`,`user_id`,`deposit`,`balance`,`is_del`,`order_create_at`,`order_status`,`start_serve`,`end_serve`) VALUES ('sada','das','2017-06-22','asd','ad','3','201706081601053512','2','1000','9000','1','2017-06-08','1','2017-06-22','2017-07-18') [ RunTime:0.0010s ]
+

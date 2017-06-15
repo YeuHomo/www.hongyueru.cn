@@ -1,0 +1,61 @@
+<tc_include file=":function"/>
+<tc_include file=":config"/>
+<head>
+    <meta charset="utf-8">
+    <title>世纪母婴——最专业的月嫂</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="__TMPL__Public/assets2/css/bootstrap.css" rel="stylesheet"/>
+    <link href="__TMPL__Public/assets2/css/mobilelog.css" rel="stylesheet"/>
+    <script src="__TMPL__Public/assets2/js/lib/jquery/jquery.min.js"></script>
+    <script src="__TMPL__Public/assets2/js/login/mobilelog.js"></script>
+    <script src="__PUBLIC__/js/layer/layer.js"></script>
+    <link href="__TMPL__Public/assets2/css/index.css" rel="stylesheet"/>
+    <script src="__TMPL__Public/assets2/js/swiper.min.js"></script>
+    <link href="__TMPL__Public/assets2/css/swiper.css" rel="stylesheet"/>
+    <script src="__TMPL__Public/assets2/js/site/index/index.js"></script>
+    <link href="__TMPL__Public/assets2/css/showorder.css" rel="stylesheet" />
+    <link href="__TMPL__Public/assets2/css/base.css" rel="stylesheet" />
+    <link href="__TMPL__Public/assets2/css/about.css" rel="stylesheet"/>
+    <link href="__TMPL__Public/assets2/css/contact.css" rel="stylesheet"/>
+
+    <style>
+        @media (min-width: 1200px) {
+            .container {
+                width: 1200px;
+            }
+        }
+    </style>
+
+    <link href="__TMPL__Public/assets2/css/lib/mdl/material.min.css" rel="stylesheet"/>
+    <script src="__TMPL__Public/assets2/js/lib/mdl/material.min.js"></script>
+    <link href="__TMPL__Public/assets2/css/site/header.css" rel="stylesheet"/>
+    <link href="__TMPL__Public/assets2/css/site/footer.css" rel="stylesheet"/>
+    <link href="__TMPL__Public/assets2/css/site/user/my-order.css" rel="stylesheet"/>
+    <link href="__TMPL__Public/assets2/css/site/common/base.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="__PUBLIC__/CSS/page.css">
+</head>
+<body>
+
+<div class="log_bgcolor">
+<div class="container">
+    <div class="log_content1">
+        <div class="col-md-8"> <span class="pull-left log_content1_left">欢迎来到世纪母婴！</span> </div>
+
+            <empty name='Think.session.user'>
+                <div class="col-md-4">
+                    <div class="nav pull-right log_content1_right">
+                    <a href="{:U('user/register/index')}">　　注册　|　</a>
+                        <a href="{:U('user/login/index')}">登录</a></div>
+                </div>
+        <else />
+                <div class="col-md-4">
+            <div class="nav pull-right log_content1_right"> <span>欢迎，我的{$_SESSION['user'].user_nicename}</span>
+                <a href="{:U('Order/MemberOrder/allOrder')}">　|　个人中心　|　</a>
+                <a href="{:U('user/index/logout')}">退出登录</a>
+            </div>
+                </div>
+        </empty>
+
+    </div>
+</div>
